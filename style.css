@@ -152,4 +152,64 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 20px 30px;
+    border-radius: 0.5rem;
+    background-color: #feeee7;
 }
+.box-img {
+    width: 220px;
+    height: 220px;
+}
+.box-img img {
+    width: 100%;
+    height: 100%;
+}
+.box h2 {
+    font-size: 1.3rem;
+    color: var(--bg-color);
+}
+.box h3 {
+    color: var(--bg-color);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 4px 0 10px;
+}
+.box span {
+    color: var(--main-color);
+    font-size: var(--p-font);
+    font-weight: 600;
+}
+.box .bx {
+    background-color: var(--main-color);
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 25px;
+    border-radius: 0 0.5rem 0 0.5rem;
+}
+
+/* Service Section */
+.service-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    grid-gap: 1.5rem;
+    margin-top: 4rem;
+}
+.s-box {
+    text-align: center;
+    padding: 20px 30px;
+}
+.s-box img {
+    width: 100px;
+}
+.s-box h3 {
+    font-size: 1.3rem;
+    color: var(--main-color);
+    margin: 5px 0 10px;
+}
+.s-box p {
+    line-height: 1.7rem;
+}
+
+/* Contact Section */
