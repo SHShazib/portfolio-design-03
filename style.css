@@ -212,4 +212,20 @@ header {
     line-height: 1.7rem;
 }
 
-/* Contact Section */
+/* Call to Action */
+.cta {
+    background-color: #feeee7;
+    padding: 70px 0px;
+    width: 70%;
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+.cta h2 {
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+}
+
+
+/* Contact & Footer */
