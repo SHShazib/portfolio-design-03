@@ -229,3 +229,44 @@ header {
 
 
 /* Contact & Footer */
+.footer {
+    padding: 10px 0px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col {
+    width: 25%;
+    padding-left: 7%;
+}
+.col h4 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 25px;
+    position: relative;
+}
+.col h4::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    left: 0;
+    bottom: -6px;
+    background-color: var(--main-color);
+}
+.col ul li:not(:last-child) {
+    margin-bottom: 10px;
+
+}
+.col ul li a {
+    color: #9897a9;
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: 0.4s;
+}
+.col ul li a:hover {
+    color: var(--text-color);
+    transform: translateX(-10px);
+}
